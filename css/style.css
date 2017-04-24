@@ -1,0 +1,180 @@
+header{
+	background: linear-gradient(141deg, #0fb8ad 0%, #1fc8db 51%, #2cb5e8 75%);
+	min-height: 100px;
+	padding-top:30px;
+}
+header img.logo{
+	float:left;
+
+}
+header form{
+	float:right;
+}
+.panel-heading{
+	background: linear-gradient(141deg, #0fb8ad 0%, #1fc8db 51%, #2cb5e8 75%);
+	color:#fff !important;
+}
+.text-data{
+	min-height: 50px;
+}
+.text-centre{
+	text-align: center;
+}
+
+/*.bubble {
+    background-color: #fff;
+    border: 1px solid #c8c8c8;
+    border-radius: 2px;
+   
+    text-align: center;
+    padding: 2px;
+    position: absolute;
+}*/
+
+.bubble{
+	background: #fff;
+	width:580px;
+	min-height: 65px;
+	padding: 15px;
+	border-radius: 10px;
+	border: 1px solid #ccc;
+
+}
+/*.bubble:after{
+	content:'';
+	position: absolute;
+	border-style: solid;
+	border-width: 15px 15px 15px 0;
+	border-color: transparent #fff;
+	display: block;
+	width:0;
+	z-index: 1;
+	margin-top: -15px;
+	left: -15px;
+	top: 50%
+}
+.bubble:before{
+	content:'';
+	position: absolute;
+	border-style: solid;
+	border-width: 15px 15px 15px 0;
+	border-color: transparent #ccc;
+	display: block;
+	width:0;
+	z-index: 0;
+	margin-top: -15px;
+	left: -16px;
+	top: 50%
+}*/
+/*.comment-area{
+	margin-bottom: 10px;
+}
+ .*/
+ /*form-inline .form-group{
+ 	width:45%;
+ }
+ .form-inline .form-control{
+ 	width:380px;
+ }
+ */
+.comment-avatar img{
+	width: 40px;
+	margin-right: 5px; 
+}
+.post-action{
+	padding: 10px 0; 
+}
+
+.comment{
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	padding: 6px 6px 0px 6px;
+	margin:5px 0;
+	overflow: auto;
+	width:100%;
+
+}
+
+.user-members
+{
+	padding-bottom: 10px;
+	margin-bottom: 20px;
+	border-bottom: 1px solid #ccc;
+	
+	
+}
+.friends img{
+	width:50px;
+	
+}
+.friends li {
+	list-style: none;
+	display: inline;
+	float: left;
+	padding: 0 5px;
+
+}
+.btn-align{
+	text-align: center;
+}
+.btn-align p{
+	margin-top:5px;
+}
+
+footer{
+	background: linear-gradient(141deg, #0fb8ad 0%, #1fc8db 51%, #2cb5e8 75%);
+	height: 50px;
+	
+
+
+}
+
+.group-item img{
+	width:80px;
+	float :left;
+	margin-right: 15px;
+}
+.group-item{
+	padding-bottom: 10px;
+	margin-bottom: 20px;
+	border-bottom: 1px solid #ccc;
+	overflow: auto;
+}
+.align{
+	margin-bottom: 20px;
+}
+
+.user-img img{
+	margin-bottom: 50px;
+}
+.user-data ul{
+	list-style: none;
+	padding-top: 40px; 
+}
+
+.user-data ul li{
+	padding-bottom: 10px
+}
+
+.photos{
+	margin: 0;
+	padding: 0;
+}
+
+.photos li{
+	list-style: none;
+	float: left;
+	margin:5px;
+	width: 23%;
+}
+.photos img{
+	width: 100%;
+}
+footer p{
+	
+	text-align: center;
+	color:#fff;
+	padding-top: 15px;
+	font-weight: bold;
+}
+
